@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    password:  "12345"
+    username: root
+management:
+  endpoint:
+    health:
+      show-details: always
